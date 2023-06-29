@@ -1,15 +1,15 @@
 def baby_tree
-  puts '  \/ |    |/     '
-  puts '  \/ / \||/  /_/_'
-  puts '  \/   |/ \/     '
-  puts '_\__\_\   |  /__/'
-  puts '    \  | / / /   '
-  puts '__ _-----`------~'
-  puts '      \ }{       '
-  puts '      }{{        '
-  puts '      }}{        '
-  puts '      {{}        '
-  puts ', -=-~{ .-^- _   '
+  puts '        # \/#|###            '
+  puts '      #\/#/ \||/##/_         '
+  puts '    ##  \/###|/ \/ #         '
+  puts '    \_#\_\## | #/###_/       '
+  puts '     # # \ #| /  ####        '
+  puts '      ###`  |{,###-          '
+  puts '           \ }{              '
+  puts '            }}{              '
+  puts '            }}{              '
+  puts '            {{}              '
+  puts '      , -=-~{ .-^- _         '
 end
 
 def teen_tree
@@ -23,7 +23,7 @@ def teen_tree
   puts '           \ }{              '
   puts '            }}{              '
   puts '            }}{              '
-  puts '       ejm  {{}              '
+  puts '            {{}              '
   puts '      , -=-~{ .-^- _         '
 end
 
@@ -38,6 +38,20 @@ def adult_tree
   puts '        @  \ }{         @    '
   puts '            }}{              '
   puts '            }}{              '
-  puts '       ejm  {{}              '
+  puts '            {{}              '
   puts '      , -=-~{ .-^- _         '
+end
+
+def dead_tree
+  puts '  \/ |    |/     '
+  puts '  \/ / \||/  /_/_'
+  puts '  \/   |/ \/     '
+  puts '_\__\_\   |  /__/'
+  puts '    \  | / / /   '
+  puts '__ _-----`------~'
+  puts '      \ }{       '
+  puts '      }{{        '
+  puts '      }}{        '
+  puts '      {{}        '
+  puts ', -=-~{ .-^- _   '
 end

@@ -29,5 +29,6 @@ until is_dead
   baby_tree if orange_tree.age == 1
   teen_tree if orange_tree.age == 5
   adult_tree if orange_tree.age == 10
-  teen_tree if orange_tree.dead?
+  teen_tree if orange_tree.age == rand(20..40)
+  dead_tree if orange_tree.dead?
 end
