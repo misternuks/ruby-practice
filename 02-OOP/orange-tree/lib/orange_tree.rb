@@ -47,5 +47,4 @@ class OrangeTree
   def dead?
     @dead
   end
-
 end
